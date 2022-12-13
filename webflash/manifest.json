@@ -1,20 +1,11 @@
 {
-    "name": "ESP Web Tool Demo",
+    "name": "WLED ESP01 WebFlasher",
     "new_install_prompt_erase": true,
     "builds": [
       {
-        "chipFamily": "ESP32",
-        "parts": [
-          { "path": "boot_app0.bin", "offset": 57344 },
-          { "path": "SerialHelloWorld.ino.bin", "offset": 65536 },
-          { "path": "SerialHelloWorld.ino.bootloader.bin", "offset": 4096 },
-          { "path": "SerialHelloWorld.ino.partitions.bin", "offset": 32768 }
-        ]
-      },
-      {
         "chipFamily": "ESP8266",
         "parts": [
-          { "path": "esp8266/SerialHelloWorld.ino.bin", "offset": 0 }
+          { "path": "WLED_0.13.3_ESP01.bin", "offset": 0 }
         ]
       }
     ]
